@@ -52,8 +52,8 @@
 					<?php
 						foreach($student_info as $value){
 						  $name = $value["name"];
-						  $age = $value["age"];
-						  $image_loc = $value["image_loc"];
+						  $major = $value["major"];
+						  $gmu_email = $value["gmu_email"];
 
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
@@ -61,6 +61,7 @@
 						    echo "		<div class='student-circle'></div>";
 						    echo "		<span class='circle-subtitle'> Name: $name </span>";
 						    echo "		<span class='circle-subtitle'> Age: $age </span>";
+						    echo "		<span class='circle-subtitle'> Email: $gmu_email </span>";
 						    echo '	</li>';
 						}
 					?>
