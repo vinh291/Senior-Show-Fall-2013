@@ -52,15 +52,13 @@
 					<?php
 						foreach($student_info as $value){
 						  $name = $value["name"];
-						  $age = $value["age"];
 						  $image_loc = $value["image_loc"];
 
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
 						    echo "		<div class='student-circle'></div>";
-						    echo "		<span class='circle-subtitle'> Name: $name </span>";
-						    echo "		<span class='circle-subtitle'> Age: $age </span>";
+						    echo "		<span class='circle-name'>$name</span>";
 						    echo '	</li>';
 						}
 					?>
