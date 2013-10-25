@@ -27,7 +27,6 @@ function isMobile(){
 
     //Scroll and fade out the banner text
     jQuery('#bannerText').css({
-      'margin-top' : -(scrollPos/3)+"px",
       'opacity' : 1-(scrollPos/300)
     });
   
