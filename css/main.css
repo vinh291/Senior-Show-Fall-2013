@@ -19,6 +19,7 @@ body, html {
 header {
 	width: 100%;
 	min-height: 100%;
+	background: url(../img/starbackground2.jpg) fixed center;
 	background-color: #242231;
 }
 
@@ -29,6 +30,61 @@ header {
 	margin-right: auto; 
 	text-align: center;
 }
+
+.header-info h1{
+
+   text-shadow: rgb(32, 30, 44) 1px 1px,
+    rgb(32, 30, 44) 2px 2px,
+    rgb(32, 30, 44) 3px 3px,
+    rgb(32, 30, 44) 4px 4px,
+    rgb(32, 30, 44) 5px 5px,
+    rgb(32, 30, 44) 6px 6px,
+    rgb(32, 30, 44) 7px 7px,
+    rgb(32, 30, 44) 8px 8px,
+    rgb(32, 30, 44) 9px 9px,
+    rgb(32, 30, 45) 10px 10px,
+    rgb(32, 30, 45) 11px 11px,
+    rgb(32, 30, 45) 12px 12px,
+    rgb(33, 31, 45) 13px 13px,
+    rgb(33, 31, 45) 14px 14px,
+    rgb(33, 31, 45) 15px 15px,
+    rgb(33, 31, 45) 16px 16px,
+    rgb(33, 31, 45) 17px 17px,
+    rgb(33, 31, 45) 18px 18px,
+    rgb(33, 31, 45) 19px 19px,
+    rgb(33, 31, 46) 20px 20px,
+    rgb(33, 31, 46) 21px 21px,
+    rgb(33, 31, 46) 22px 22px,
+    rgb(33, 31, 46) 23px 23px,
+    rgb(33, 31, 46) 24px 24px,
+    rgb(34, 32, 46) 25px 25px,
+    rgb(34, 32, 46) 26px 26px,
+    rgb(34, 32, 46) 27px 27px,
+    rgb(34, 32, 46) 28px 28px,
+    rgb(34, 32, 46) 29px 29px,
+    rgb(34, 32, 47) 30px 30px,
+    rgb(34, 32, 47) 31px 31px,
+    rgb(34, 32, 47) 32px 32px,
+    rgb(34, 32, 47) 33px 33px,
+    rgb(34, 32, 47) 34px 34px,
+    rgb(34, 32, 47) 35px 35px,
+    rgb(34, 32, 47) 36px 36px,
+    rgb(35, 33, 47) 37px 37px,
+    rgb(35, 33, 47) 38px 38px,
+    rgb(35, 33, 47) 39px 39px,
+    rgb(35, 33, 48) 40px 40px,
+    rgb(35, 33, 48) 41px 41px,
+    rgb(35, 33, 48) 42px 42px,
+    rgb(35, 33, 48) 43px 43px,
+    rgb(35, 33, 48) 44px 44px,
+    rgb(35, 33, 48) 45px 45px,
+    rgb(35, 33, 48) 46px 46px,
+    rgb(35, 33, 48) 47px 47px,
+    rgb(35, 33, 48) 48px 48px,
+    rgb(36, 34, 49) 49px 49px;
+}
+
+
 
 .down-arrow {
 	width: 0; 
@@ -193,6 +249,10 @@ p {
 	
 }
 
+section.details,
+section.students{
+	background: url(../img/starbackground2.jpg) fixed;
+}
 
 
 

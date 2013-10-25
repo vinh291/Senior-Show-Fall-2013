@@ -17,11 +17,12 @@
  	<script src="js/vendor/custom.modernizr.js"></script>
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 	<body>
 		<section id="wrapper">
-			<header>
-				<div class="header-info">
+			<header id="homeBanner">
+				<div id="bannerText" class="header-info">
 					<h3>Fly me to the moon</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
 					<h3>Let me play among the stars.</h3>
@@ -82,6 +83,8 @@
   </script>
   
   <script src="js/foundation.min.js"></script>
+  <script src="js/super.js"></script>
+
   <script>
     $(document).foundation();
   </script>
