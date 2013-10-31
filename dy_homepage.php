@@ -26,8 +26,9 @@
 					<h3>Fly me to the moon</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
 					<h3>Let me play among the stars.</h3>
-					<div class="down-arrow"></div>
 				</div>
+				<div class="down-arrow"></div>
+
 			</header>
 			<section class="about"> 
 				<h2>About</h2>
@@ -80,7 +81,7 @@
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
-  </script>
+  </script> 
   
   <script src="js/foundation.min.js"></script>
   <script src="js/super.js"></script>

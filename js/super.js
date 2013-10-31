@@ -29,7 +29,7 @@ function isMobile(){
     jQuery('#bannerText').css({
       'opacity' : 1-(scrollPos/300)
     });
-  
+
     //Scroll the background of the banner
     jQuery('#homeBanner').css({
       'background-position' : 'center ' + (-scrollPos/2)+"px",
