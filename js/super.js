@@ -31,9 +31,9 @@ function isMobile(){
     });
 
     //Scroll the background of the banner
-    jQuery('#homeBanner').css({
-      'background-position' : 'center ' + (-scrollPos/2)+"px",
-    });
+    // jQuery('#homeBanner').css({
+    //  'background-position' : 'center ' + (-scrollPos/2)+"px",
+    //});
 
     //Scroll the background of the banner
     jQuery('section.students').css({

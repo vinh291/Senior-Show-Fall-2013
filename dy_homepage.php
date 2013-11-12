@@ -13,11 +13,14 @@
 	<title>GMU | Art and Design Senior Show 2013</title>
  	<link rel="stylesheet" href="css/foundation.css">
  	<link rel="stylesheet" href="css/main.css">
- 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
- 	<script src="js/vendor/custom.modernizr.js"></script>
+ 	<!-- Drop down style -->
+ 	<link rel="stylesheet" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+ 	<!-- <script src="js/vendor/custom.modernizr.js"></script> -->
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jq.js"></script>
 </head>
 	<body>
 		<section id="wrapper">
@@ -48,23 +51,31 @@
 			</section>
 			<section class="students">
 				<h2>Students</h2>
-					<ul class="small-block-grid-1 large-block-grid-3">
+					
+					<ul id="og-grid" class="og-grid">
 
 					<!-- PHP Loops thru the studentinfo.csv file -->
 					<?php
 						foreach($student_info as $value){
-						  $name = $value["name"];
-						  $image_loc = $value["image_loc"];
+						$name = $value["name"];	
+						$major = $value["major"];	
+						$gmuemail = $value["gmuemail"];	
+						$personalemail = $value["personalemail"];	
+						$website = $value["website"];	
+						$picture = $value["picture"];	
+						$artiststatement = $value["artiststatement"];	
+						$partyDonation = $value["partyDonation"];	
+						$exibitDontion = $value["exibitDontion"];	
+						$posterPayment = $value["posterPayment"];
 
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
-						    echo "		<div class='student-circle'></div>";
-						    echo "		<span class='circle-name'>$name</span>";
+						    echo "		<a href='#' data-largesrc='images/1.jpg' data-title='$name' data-description='$artiststatement'>";
+						    echo "		<img src='images/thumbs/2.jpg' alt='img02'/> </a> <p>  </p>";
 						    echo '	</li>';
 						}
-					?>
-
+					?> 
 					</ul>
 			</section>
 			<section class="quote">
@@ -87,6 +98,18 @@
   <script src="js/super.js"></script>
 
   <script>
-    $(document).foundation();
+    jQuery(document).foundation();
   </script>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/grid.js"></script>
+<script>
+	$(function() {
+		Grid.init();
+	});
+</script>
+
+
+
+
 </html>
