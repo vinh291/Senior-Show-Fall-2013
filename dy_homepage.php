@@ -26,9 +26,9 @@
 		<section id="wrapper">
 			<header id="homeBanner">
 				<div id="bannerText" class="header-info">
-					<h3>Fly me to the moon</h3>
+					<h3>George Mason University Fall 2013</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
-					<h3>Let me play among the stars.</h3>
+					<h3>6pm-10pm Friday, December 13th Art & Design Building</h3>
 				</div>
 				<div class="down-arrow"></div>
 
@@ -36,16 +36,15 @@
 			<section class="about"> 
 				<h2>About</h2>
 					<ul class="small-block-grid-1 large-block-grid-3">
-						<li><div class="about-circle"></div><span class="circle-subtitle">Whadup Dawg</span></li>
-						<li><div class="about-circle"></div><span class="circle-subtitle">Whadup Kat</span></li>
-						<li><div class="about-circle"></div><span class="circle-subtitle">Whadup Phish</span></li>
+						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
+						<li><div class="about-circle-projects"></div><span class="circle-subtitle">Forty Projects</span></li>
+						<li><div class="about-circle-parking"></div><span class="circle-subtitle">Free Parking</span></li>
 					</ul>
-					<p>Maecenas consequat eleifend odio, a lobortis risus laoreet vel. Sed faucibus metus at ultricies sollicitudin. Suspendisse potenti. Vestibulum volutpat molestie sapien. Aenean euismod sed sapien eu porta. Aliquam neque metus, consectetur vel est sed, condimentum semper tortor. Donec hendrerit viverra ornare.</p>
+					<p>Join us! We’re thrilled to share the culminating work of our college careers with you. Explore the cultural roots of minimalism, wrestle with the hidden world of homelessness, and learn about the nuances of beer and wine. 
+					Enjoy complimentary refreshments, convenient parking, and the opportunity to meet the artists behind the projects.
+					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
+
 			</section>
-			<section class="details">
-				<h2>Details</h2>
-				<section class="small-block-grid-1 large-block-grid-2"></section>
-				</section>
 			<section class="map">
 				<h2>Map</h2>
 			</section>
@@ -79,10 +78,19 @@
 					</ul>
 			</section>
 			<section class="quote">
-				<blockquote>"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</blockquote>
+				<span class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</span>
+			</section>
+
+			<section id="contact">
+				<p class="contact-info">
+				info@masonseniorshow.com</br>
+				(703) 993-8898</br>
+				Art and Design Building</br>
+				4400 University Drive Fairfax, VA 22030 </br>
+				</p>
 			</section>
 			<footer>
-				<h1>#	graduationbitchesss</h1>
+				This site has been made possible by: 
 			</footer>
 		<!--wrapper close-->
 		</section>
