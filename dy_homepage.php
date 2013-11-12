@@ -70,8 +70,9 @@
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
+						    echo "	<p style='color:white;'> $name </p>";
 						    echo "		<a href='#' data-largesrc='images/1.jpg' data-title='$name' data-description='$artiststatement'>";
-						    echo "		<img src='images/thumbs/2.jpg' alt='img02'/> </a> <p>  </p>";
+						    echo "		<img src='images/thumbs/2.jpg' alt='img02'/> </a>";
 						    echo '	</li>';
 						}
 					?> 
