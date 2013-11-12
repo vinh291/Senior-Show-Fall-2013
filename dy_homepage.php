@@ -90,7 +90,7 @@
 				</p>
 			</section>
 			<footer>
-				This site has been made possible by: 
+				<span class="credit">This site has been made possible by these amazing people:</span>
 			</footer>
 		<!--wrapper close-->
 		</section>
