@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
  	<!-- Drop down style -->
-<!--  	<link rel="stylesheet" href="css/component.css" /> -->
+	<link rel="stylesheet" href="css/component.css" /> 
 		<script src="js/modernizr.custom.js"></script>
 
  	<!-- <script src="js/vendor/custom.modernizr.js"></script> -->
