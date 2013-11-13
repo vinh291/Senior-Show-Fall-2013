@@ -10,16 +10,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>GMU | Art and Design Senior Show 2013</title>
  	<link rel="stylesheet" href="css/foundation.css">
+ 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
- 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+ 	<!-- <link rel="stylesheet" type="text/css" href="css/icons.css" /> -->
  	<script src="js/vendor/custom.modernizr.js"></script>
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 	<body>
-		<section id="wrapper">
-			<header>
-				<div class="header-info">
+		<div id="st-container" class="st-container">
+		    <!-- content push wrapper -->
+		    <div class="st-pusher">
+			    <nav class="st-menu st-effect-8" id="menu-8">
+					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
+					<ul id="menu-list">
+						<li><a id="nav1" href="#">About</a></li>
+						<li><a id="nav2" href="#details">Details</a></li>
+						<li><a id="nav-item3" href="#map">Map</a></li>
+						<li><a id="nav-item4" href="#students">Students</a></li>
+						<li><a id="nav-item5" href="#quote">Questions?</a></li>
+					</ul>
+				</nav>
+		 
+<div class="st-content">
+    <div class="st-content-inner">
+        <!-- the content -->
+			<section id="wrapper">
+				
+	
+					<header>
+						<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
+						<div class="header-info">
 					<h3>Fly me to the moon</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
 					<h3>Let me play among the stars.</h3>
@@ -138,12 +161,27 @@
 		<!--wrapper close-->
 		</section>
 		<!--wrapper close-->
+		           </div><!-- /st-content-inner -->
+        </div><!-- /st-content -->
+    </div><!-- /st-pusher -->
+</div><!-- /st-container -->
 	</body>
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script>
+		$(document).ready(function() {
+		    var bHeight = $(window).height();
+			$('header').css('height', bHeight);
+		});
+
+		// for the window resize
+		$(window).resize(function() {
+			var bHeight = $(window).height();
+			$('header').css('height', bHeight);
+		});		
+	</script>
+  <script src="js/sidebar/classie.js"></script>
+		<script src="js/sidebar/sidebarEffects.js"></script>
+  <script src="js/foundation.min.js"></script>
   
   <script src="js/foundation.min.js"></script>
   <script>
