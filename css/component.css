@@ -7,7 +7,7 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 20px 10px 0 10px;
+	margin: 20px 70px 50px 10px;
 	vertical-align: top;
 	height: 300px;
 }
@@ -50,6 +50,7 @@
 .og-expander-inner {
 	padding: 50px 30px;
 	height: 100%;
+	background-color: ghostwhite;
 }
 
 .og-close {
