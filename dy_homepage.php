@@ -12,9 +12,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>GMU | Art and Design Senior Show 2013</title>
  	<link rel="stylesheet" href="css/foundation.css">
+ 	 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
  	<!-- Drop down style -->
- 	<link rel="stylesheet" href="css/component.css" />
+<!--  	<link rel="stylesheet" href="css/component.css" /> -->
 		<script src="js/modernizr.custom.js"></script>
 
  	<!-- <script src="js/vendor/custom.modernizr.js"></script> -->
@@ -23,12 +26,30 @@
 	<script src="js/jq.js"></script>
 </head>
 	<body>
+				<div id="st-container" class="st-container">
+		    <!-- content push wrapper -->
+		    <div class="st-pusher">
+			    <nav class="st-menu st-effect-8" id="menu-8">
+					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
+					<ul id="menu-list">
+						<li><a id="nav1" href="#">About</a></li>
+						<li><a id="nav2" href="#details">Details</a></li>
+						<li><a id="nav-item3" href="#map">Map</a></li>
+						<li><a id="nav-item4" href="#students">Students</a></li>
+						<li><a id="nav-item5" href="#quote">Questions?</a></li>
+					</ul>
+				</nav>
+		 
+<div class="st-content">
+    <div class="st-content-inner">
+        <!-- the content -->
 		<section id="wrapper">
 			<header id="homeBanner">
+				<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
 				<div id="bannerText" class="header-info">
 					<h3>George Mason University Fall 2013</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
-					<h3>6pm-10pm Friday, December 13th Art & Design Building</h3>
+					<h3>6pm-10pm Friday, December 13th Art &amp; Design Building</h3>
 				</div>
 				<div class="down-arrow"></div>
 
@@ -108,12 +129,26 @@
 		<!--wrapper close-->
 		</section>
 		<!--wrapper close-->
+				           </div><!-- /st-content-inner -->
+        </div><!-- /st-content -->
+    </div><!-- /st-pusher -->
+</div><!-- /st-container -->
 	</body>
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script>
+		$(document).ready(function() {
+		    var bHeight = $(window).height();
+			$('#homeBanner').css('height', bHeight);
+		});
+
+		// for the window resize
+		$(window).resize(function() {
+			var bHeight = $(window).height();
+			$('#homeBanner').css('height', bHeight);
+		});		
+	</script>
+  <script src="js/sidebar/classie.js"></script>
+		<script src="js/sidebar/sidebarEffects.js"></script>
   
   <script src="js/foundation.min.js"></script>
   <script src="js/super.js"></script>
@@ -122,7 +157,7 @@
     jQuery(document).foundation();
   </script>
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/grid.js"></script>
 <script>
 	$(function() {
