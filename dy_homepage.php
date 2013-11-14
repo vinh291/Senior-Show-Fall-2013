@@ -94,8 +94,8 @@
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
 						    echo "	<p style='color:white;'> $name </p>";
-						    echo "		<a href='#' data-largesrc='img/1.jpg' data-title='$name' data-description='$artiststatement'>";
-						    echo "		<img src='img/thumbs/2.jpg' alt='img02'/> </a>";
+						    echo "		<a href='#' data-largesrc='img/photo.jpg' data-title='$name' data-description='$artiststatement'>";
+						    echo "		<img src='img/photo2.jpg' alt='img02'/> </a>";
 						    echo '	</li>';
 						}
 					?> 
@@ -103,7 +103,7 @@
 			</section>
 			<section class="quote">
 				<span class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</span>
-				<span class"pascal">Blaise Pascal</span>
+				<h6>Blaise Pascal</h6>
 			</section>
 
 			<section id="contact">
