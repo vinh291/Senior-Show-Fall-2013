@@ -36,7 +36,7 @@
 						<li><a id="nav2" href="#details">Details</a></li>
 						<li><a id="nav-item3" href="#map">Map</a></li>
 						<li><a id="nav-item4" href="#students">Students</a></li>
-						<li><a id="nav-item5" href="#quote">Questions?</a></li>
+						<li><a id="nav-item5" href="#contact">Questions?</a></li>
 					</ul>
 				</nav>
 		 
@@ -55,7 +55,8 @@
 
 			</header>
 			<section class="about"> 
-				<h2>About</h2>
+			<a id="details"></a>
+				<h2>Details</h2>
 					<ul class="small-block-grid-1 large-block-grid-3">
 						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
 						<li><div class="about-circle-projects"></div><span class="circle-subtitle">Forty Projects</span></li>
@@ -66,9 +67,11 @@
 					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
 
 			</section>
+			<a id="map"></a>
 			<section class="map">
 			</section>
 			<section class="students">
+			<a id="students"></a>
 				<h2>Students</h2>
 					
 					<ul id="og-grid" class="og-grid">
@@ -104,6 +107,7 @@
 			</section>
 
 			<section id="contact">
+			<a id="contact"></a>
 				<p class="contact-info">
 				info@masonseniorshow.com</br>
 				(703) 993-8898</br>
@@ -124,7 +128,7 @@
 				    <li>Klare Frank</li>
 				    <li>Joseph Abrahams</li>
 				</ul>
-				<img src="img/gmu.png" alt="">
+				<a href="http://www.gmu.edu/"><img src="img/gmu.png" alt=""></a>
 			</footer>
 		<!--wrapper close-->
 		</section>
