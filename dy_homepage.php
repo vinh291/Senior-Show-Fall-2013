@@ -26,6 +26,9 @@
 	<script src="js/jq.js"></script>
 </head>
 	<body>
+	<!-- google analytics -->
+	<?php include_once("php/analyticstracking.php") ?>
+
 				<div id="st-container" class="st-container">
 		    <!-- content push wrapper -->
 		    <div class="st-pusher">
@@ -41,15 +44,17 @@
 				</nav>
 		 
 <div class="st-content">
+<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
 			<header id="homeBanner">
-				<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
 				<div id="bannerText" class="header-info">
 					<h3>George Mason University Fall 2013</h3>
 					<h1>ART + DESIGN SENIOR SHOW</h1>
-					<h3>6pm-10pm Friday, December 13th Art &amp; Design Building</h3>
+					<h4>Showing December 9 - 13</br>
+					Closing Reception on Friday December 13, 6pm - 10pm
+					</br>Art &amp; Design Building</h4>
 				</div>
 				<div class="down-arrow"></div>
 

@@ -274,7 +274,9 @@ h3 {
 h4 {
 	margin-top: -15px;
 	text-align: center;
-	color: #6fe8d0;
+	color: teal;
+	font-family: "proxima-nova";
+	font-weight: 100;
 }
 
 h6 {

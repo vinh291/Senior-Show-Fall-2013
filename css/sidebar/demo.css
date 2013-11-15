@@ -144,7 +144,7 @@ a:hover, a:focus {
 button {
 	border: none;
 	padding: 0.6em 1.2em;
-	background: #388a5a;
+	background: teal;
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 1em;
@@ -153,11 +153,33 @@ button {
 	cursor: pointer;
 	display: inline-block;
 	margin: 3px 2px;
-	border-radius: 2px;
+}
+
+/*.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+  content: "Menu";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: white;
+  box-shadow: 
+    0 0.25em 0 0 white,
+    0 0.5em 0 0 white;
+}
+*/
+
+#st-trigger-effects{
+	position: absolute;
+	z-index: 999999;
 }
 
 button:hover {
-	background: #2c774b;
+	background: teal;
 }
 
 .info {
