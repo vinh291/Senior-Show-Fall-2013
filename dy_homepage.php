@@ -92,7 +92,7 @@
 						$personalemail = $value["personalemail"];	
 						$website = $value["website"];	
 						$picture = $value["picture"];	
-						$artiststatement = $value["artiststatement"];	
+						$artiststatement = htmlspecialchars($value["artiststatement"], ENT_QUOTES);	
 						$partyDonation = $value["partyDonation"];	
 						$exibitDontion = $value["exibitDontion"];	
 						$posterPayment = $value["posterPayment"];

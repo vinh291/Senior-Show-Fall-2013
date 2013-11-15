@@ -92,8 +92,8 @@
 						$gmuemail = $value["gmuemail"];	
 						$personalemail = $value["personalemail"];	
 						$website = $value["website"];	
-						$picture = $value["picture"];	
-						$artiststatement = $value["artiststatement"];	
+						$picture = $value["picture"];
+						$artiststatement = htmlentities($value["artiststatement"]);	
 						$partyDonation = $value["partyDonation"];	
 						$exibitDontion = $value["exibitDontion"];	
 						$posterPayment = $value["posterPayment"];

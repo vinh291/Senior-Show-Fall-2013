@@ -116,6 +116,10 @@
 	margin-bottom: 10px;
 }
 
+div.og-details{
+	overflow: scroll;
+}
+
 .og-details p {
 	font-weight: 400;
 	font-size: 16px;
