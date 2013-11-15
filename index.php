@@ -50,9 +50,9 @@
 						<li><a id="nav-item5" href="#contact">Questions?</a></li>
 					</ul>
 				</nav>
-		 
+		 <div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
 <div class="st-content">
-<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
+
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
@@ -166,6 +166,15 @@
 			var bHeight = $(window).height();
 			$('#homeBanner').css('height', bHeight);
 		});		
+	</script>
+
+	<script>
+	$('#st-trigger-effects').click( function() {
+		$( this ).animate({
+			left: "300px",
+			position: "fixed"
+		}, 300)
+	});
 	</script>
   <script src="js/sidebar/classie.js"></script>
 		<script src="js/sidebar/sidebarEffects.js"></script>

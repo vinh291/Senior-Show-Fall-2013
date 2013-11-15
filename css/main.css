@@ -24,6 +24,10 @@ header {
 	position: relative;
 }
 
+#st-trigger-effects {
+	position: fixed;
+}
+
 #bannerText {
 	position:absolute; 
 	top:0; 
