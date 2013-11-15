@@ -204,7 +204,7 @@
     // disable drag and zoom handlers
     // map.dragging.disable();
     // map.touchZoom.disable();
-    // map.doubleClickZoom.disable();
+    map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
 </script>
 
