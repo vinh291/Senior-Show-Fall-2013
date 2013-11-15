@@ -32,6 +32,11 @@
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="js/jq.js"></script>
+
+	<!-- mapbox -->
+	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
+  	<link href='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
+
 </head>
 	<body>
 	<!-- google analytics -->
@@ -83,8 +88,7 @@
 					Free parking will be available in lots A and K for the closing reception on December 13th.</p>
 
 			</section>
-			<a id="map"></a>
-			<section class="map">
+			<section id="map" class="map">
 			</section>
 			<section class="students">
 			<a id="students"></a>
@@ -193,6 +197,16 @@
 	});
 </script>
 
+<!-- mapbox -->
+<script type='text/javascript'>
+    var map = L.mapbox.map('map', 'vinh291.g9514g88', {zoomControl: false});
+
+    // disable drag and zoom handlers
+    // map.dragging.disable();
+    // map.touchZoom.disable();
+    // map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+</script>
 
 
 
