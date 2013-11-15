@@ -1,0 +1,4 @@
+///////////////////////////////   
+// Mobile Detection
+///////////////////////////////
+function isMobile(){return navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/webOS/i)||navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPod/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/BlackBerry/)}function scrollBanner(){scrollPos=jQuery(this).scrollTop();jQuery("#bannerText").css({opacity:1-scrollPos/300});jQuery("section.students").css({"background-position":"center "+ -scrollPos/8+"px"})}jQuery.noConflict();jQuery(document).ready(function(){isMobile()||jQuery(window).scroll(function(){scrollBanner()})});

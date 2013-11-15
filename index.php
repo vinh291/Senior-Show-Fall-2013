@@ -11,6 +11,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>GMU | Art and Design Senior Show 2013</title>
+	<!-- facebook meta tags -->
+	<meta property="og:site_name" content="GMU Fall 2013 Art & Design Senior Show"/>
+	<meta property="og:title" content="GMU Fall 2013 Art & Design Show"/>
+	<meta property="og:description" content="George Mason University School of Art presents the Fall 2013 Art & Design Senior Show. Showing December 9 - 13 with the closing party on Friday, 6pm - 10pm."/>
+	<meta property="og:image" content="img/facebook.jpg">
+	<meta property="og:url" content="http://fall2013.masonseniorshow.com/">
+	<meta property="og:type" content="Website"/>
+<!-- stylesheets -->
  	<link rel="stylesheet" href="css/foundation.css">
  	 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
@@ -56,9 +64,9 @@
 						<h4>Showing December 9 - 13</br>
 					Closing Reception on Friday December 13, 6pm - 10pm
 					</br>Art &amp; Design Building</h4>
+					<div class="down-arrow floating"></div>
 					</div>
 				</div>
-				<div class="down-arrow floating"></div>
 
 			</header>
 			<section class="about"> 
