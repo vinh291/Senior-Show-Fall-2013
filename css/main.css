@@ -297,6 +297,13 @@ p {
 	line-height: 30px;
 }
 
+.bold {
+	font-family: "open-sans" , sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	line-height: 30px;
+}
+
 .circle-subtitle {
 	display: block;
 	text-align: center;
