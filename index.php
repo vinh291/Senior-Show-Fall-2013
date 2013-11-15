@@ -159,7 +159,7 @@
 		});		
 	</script>
   <script src="js/sidebar/classie.js"></script>
-  		<script src="js/sidebar/sidebarEffects.js"></script>
+		<script src="js/sidebar/sidebarEffects.js"></script>
   
   <script src="js/foundation.min.js"></script>
   <script src="js/super.js"></script>

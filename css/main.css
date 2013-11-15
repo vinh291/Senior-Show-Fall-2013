@@ -24,6 +24,10 @@ header {
 	position: relative;
 }
 
+#bannerText {
+	margin-top: 35%;
+}
+
 .header-info {
 	padding-top: 90px;
 	width: 80%; 
