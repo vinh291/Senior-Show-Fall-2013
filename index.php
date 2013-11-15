@@ -50,9 +50,9 @@
 		<section id="wrapper">
 			<header id="homeBanner">
 				<div class="header-info">
-					<div id="id="bannerText"">
+					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
-						<h1>ART + DESIGN SENIOR SHOW</h1>
+						<h1>ART + DESIGN</br> SENIOR SHOW</h1>
 						<h4>Showing December 9 - 13</br>
 					Closing Reception on Friday December 13, 6pm - 10pm
 					</br>Art &amp; Design Building</h4>
@@ -71,7 +71,8 @@
 					</ul>
 					<p>Join us! We’re thrilled to share the culminating work of our college careers with you. Explore the cultural roots of minimalism, wrestle with the hidden world of homelessness, and learn about the nuances of beer and wine. 
 					Enjoy complimentary refreshments, convenient parking, and the opportunity to meet the artists behind the projects.
-					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
+					If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th.
+					Free parking will be available in lots A and K for the closing reception on December 13th. </p>
 
 			</section>
 			<a id="map"></a>
