@@ -51,7 +51,8 @@ jQuery(document).ready(function(){
   
   if(!isMobile()) {
     jQuery(window).scroll(function() {        
-         scrollBanner();        
+         scrollBanner(); 
+
     });
   }
 });
