@@ -58,7 +58,7 @@
 					</br>Art &amp; Design Building</h4>
 					</div>
 				</div>
-				<div class="down-arrow"></div>
+				<div class="down-arrow floating"></div>
 
 			</header>
 			<section class="about"> 
