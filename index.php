@@ -48,7 +48,7 @@
 			    <nav class="st-menu st-effect-8" id="menu-8">
 					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
 					<ul id="menu-list">
-						<li><a id="nav1" href="#">About</a></li>
+						<li><a id="nav1" href="#homeBanner">About</a></li>
 						<li><a id="nav2" href="#details">Details</a></li>
 						<li><a id="nav-item3" href="#map">Map</a></li>
 						<li><a id="nav-item4" href="#students">Students</a></li>
@@ -135,6 +135,7 @@
 				4400 University Drive Fairfax, VA 22030 </br>
 				</p>
 			</section>
+
 			<footer>
 				<span class="credit">This site has been made possible by these amazing people:</span>
 				<p></p>
@@ -149,6 +150,7 @@
 				    <li>Will Ward</li>
 				</ul>
 				<a href="http://www.gmu.edu/"><img src="img/gmu.png" alt=""></a>
+				
 			</footer>
 		<!--wrapper close-->
 		</section>
@@ -206,7 +208,6 @@
     map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
 </script>
-
 
 
 </html>
