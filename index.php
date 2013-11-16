@@ -199,8 +199,7 @@
 
 <!-- mapbox -->
 <script type='text/javascript'>
-    var map = L.mapbox.map('map', 'vinh291.g9514g88', {zoomControl: false});
-
+	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
     // disable drag and zoom handlers
     // map.dragging.disable();
     // map.touchZoom.disable();
