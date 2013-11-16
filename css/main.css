@@ -111,10 +111,81 @@ header {
 	border-right: 20px solid transparent;
 	border-top: 20px solid white;
 	position: absolute;
-	bottom: -45px;
+	bottom: -35px;
 	right: 50%;
 	margin-right: -10px; 
 }	
+
+
+/* floating animation */
+.floating {
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@-webkit-keyframes Floatingx {
+    from {
+        -webkit-transform:translate(0, 0px);
+    }
+    65% {
+        -webkit-transform:translate(0, 15px);
+    }
+    to {
+        -webkit-transform: translate(0, -0px);
+    }
+}
+@-moz-keyframes Floating {
+    from {
+        -moz-transform:translate(0, 0px);
+    }
+    65% {
+        -moz-transform:translate(0, 15px);
+    }
+    to {
+        -moz-transform: translate(0, -0px);
+    }
+}
+.scaling {
+    float: left;
+    -webkit-animation-name: scalex;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -moz-animation-name: scale;
+    -moz-animation-duration:3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes scalex {
+    from {
+        -webkit-transform: scale(0.9);
+    }
+    65% {
+        -webkit-transform: scale(1.0);
+    }
+    to {
+        -webkit-transform: scale(0.9);
+    }
+}
+@-moz-keyframes scale {
+    from {
+        -moz-transform: scale(0.9);
+    }
+    65% {
+        -moz-transform: scale(1.0);
+    }
+    to {
+        -moz-transform: scale(0.9);
+    }
+}
 
 
 .about {
@@ -133,7 +204,7 @@ header {
 	width: 250px;
 	margin: 20px auto 0 auto ;
 	border-radius: 100%;
-	background: teal;
+	background: #48D1CC;
 }
 
 
@@ -226,7 +297,8 @@ header {
 
 .quote {
 	width: 100%;
-	background: #242231;
+	background-image: url(../img/pascal-bg.jpg);
+	/*background: #242231;*/
 	padding-top: 90px;
 	padding-bottom: 90px;
 	text-align: center;
@@ -246,7 +318,7 @@ header {
 .pascal {
 	font-family: "proxima-nova";
 	font-weight: 100;
-	color: teal;
+	color: #48D1CC;
 	font-size: 18pt;
 	font-weight: normal;
 	display: inline-block;
@@ -292,16 +364,16 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-size: 30pt;
+	font-size: 20pt;
 	font-family: "proxima-nova";
 	font-weight: 100;
-	color: teal;
+	color: #48D1CC;
 }
 
 h4 {
 	margin-top: -15px;
 	text-align: center;
-	color: teal;
+	color: #48D1CC;
 	font-family: "proxima-nova";
 	font-weight: 100;
 }
@@ -336,7 +408,7 @@ p {
 	font-family: "proxima-nova";
 	font-weight:700;
 	font-size: 24px;
-	color: teal;
+	color: #48D1CC;
 	
 }
 
@@ -368,7 +440,8 @@ section.students{
 }
 .face-box {
 	border-radius: 100%;
-	background: yellow;
+	background-image: url(../img/galactic.jpg);
+	/*background: yellow;*/
 	width: 250px;
 	height: 250px;
 }
@@ -379,7 +452,7 @@ section.students{
 
 .face-box:hover img {
 	position: absolute;
-	left: 10px;
+	left: 15px;
 }
 
 
@@ -411,7 +484,7 @@ section.students{
 	font-size: 20pt;
 	font-family: "proxima-nova";
 	font-weight: 100;
-	color: teal;	
+	color: #48D1CC;	
 	}
 
 	.about-circle-food {
@@ -600,75 +673,6 @@ section.students{
 	}
 }
 
-/* floating animation */
-.floating {
-    float: left;
-    -webkit-animation-name: Floatingx;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-name: Floating;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}
-@-webkit-keyframes Floatingx {
-    from {
-        -webkit-transform:translate(0, 0px);
-    }
-    65% {
-        -webkit-transform:translate(0, 15px);
-    }
-    to {
-        -webkit-transform: translate(0, -0px);
-    }
-}
-@-moz-keyframes Floating {
-    from {
-        -moz-transform:translate(0, 0px);
-    }
-    65% {
-        -moz-transform:translate(0, 15px);
-    }
-    to {
-        -moz-transform: translate(0, -0px);
-    }
-}
-.scaling {
-    float: left;
-    -webkit-animation-name: scalex;
-    -webkit-animation-duration:3s;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:ease-in-out;
-    -moz-animation-name: scale;
-    -moz-animation-duration:3s;
-    -moz-animation-iteration-count:infinite;
-    -moz-animation-timing-function:ease-in-out;
-}
-@-webkit-keyframes scalex {
-    from {
-        -webkit-transform: scale(0.9);
-    }
-    65% {
-        -webkit-transform: scale(1.0);
-    }
-    to {
-        -webkit-transform: scale(0.9);
-    }
-}
-@-moz-keyframes scale {
-    from {
-        -moz-transform: scale(0.9);
-    }
-    65% {
-        -moz-transform: scale(1.0);
-    }
-    to {
-        -moz-transform: scale(0.9);
-    }
-}
 
 
 
