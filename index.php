@@ -26,6 +26,9 @@
 	<script src="js/jq.js"></script>
 		  <script src="js/super.js"></script>
 
+	<!-- mapbox -->
+	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
+  	<link href='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
 
 </head>
 	<body>
@@ -47,7 +50,7 @@
 				</nav>
 		 
 <div class="st-content">
-<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
+<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu &rarr;</button></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
@@ -78,8 +81,7 @@
 					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
 
 			</section>
-			<a id="map"></a>
-			<section class="map">
+			<section id="map" class="map">
 			</section>
 			<section class="students">
 			<a id="students"></a>
@@ -182,8 +184,8 @@
 	});
 </script>
 
-<<<<<<< HEAD
-=======
+<!-- <<<<<<< HEAD -->
+<!-- ======= -->
 <!-- mapbox -->
 <script type='text/javascript'>
 	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
@@ -193,7 +195,7 @@
     map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
 </script>
->>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0
+<!-- >>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0 -->
 
 
 </html>
