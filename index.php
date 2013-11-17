@@ -55,7 +55,7 @@
         <!-- the content -->
 		<section id="wrapper">
 			<header id="about" name="about">
-				<div class="header-info">
+				<div class="header-info" id="top">
 					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
 						<h1>ART + DESIGN SENIOR SHOW</h1>
@@ -68,9 +68,9 @@
 
 			</header>
 			<section class="about" id="details" name="details"> 
-			<a></a>
-
+<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<h2>Details</h2>
+				
 					<ul class="small-block-grid-1 large-block-grid-3">
 						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
 						<li><div class="about-circle-projects"></div><span class="circle-subtitle">Forty Projects</span></li>
@@ -82,11 +82,13 @@
 
 			</section>
 			<section id="parking" name="parking">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<div id="map" class="map">
-
+					
 				</div>
 			</section>
 			<section class="students" id="students" name="students">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<h2>Students</h2>
 					
 					<ul id="og-grid" class="og-grid">
@@ -117,11 +119,13 @@
 					</ul>
 			</section>
 			<section class="quote" id="quote" name="quote">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<p class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</p>
 				<span class="pascal">Blaise Pascal</span>
 			</section>
 
 			<section id="contact">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<p class="contact-info">
 				info@masonseniorshow.com</br>
 				(703) 993-8898</br>
