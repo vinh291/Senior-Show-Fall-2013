@@ -196,11 +196,9 @@
 	$(function() { Grid.init(); });
 </script>
 
-<<<<<<< HEAD
 
 <!-- mapbox -->
-=======
->>>>>>> d466fd232c71b505469ea6cf01dd3224437c814a
+
 <script>
 jQuery(document).ready(function($) {
  
@@ -221,10 +219,6 @@ jQuery(document).ready(function($) {
     map.scrollWheelZoom.disable();
 
 </script>
-<<<<<<< HEAD
-=======
-
->>>>>>> d466fd232c71b505469ea6cf01dd3224437c814a
 
 
 </html>
