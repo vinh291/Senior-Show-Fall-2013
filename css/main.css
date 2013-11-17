@@ -13,14 +13,13 @@ body, html {
 
 
 #wrapper {
-	height: 100%;
+
 }
 
 
 header {
 	width: 100%;
 	min-height: 700px;
-	height: 100%;
 	background: url(../img/starbackground2.jpg) fixed center;
 	background-color: black;
 	position: relative;
@@ -184,7 +183,6 @@ header {
 
 .about {
 	width: 100%;
-	height: auto;
 	background: ghostwhite;
 	padding: 40px 0 80px 0;
 }
@@ -265,7 +263,6 @@ header {
 
 .students {
 	width: 100%;
-	height: auto;
 	background: #242231;
 	padding: 60px 0 150px;
 }
@@ -452,6 +449,80 @@ section.students{
 	left: 15px;
 }
 
+#st-trigger-effects {
+  position: absolute;
+  left: 1em;
+}
+
+#st-trigger-effects button {
+  position: fixed;
+}
+
+
+.menu-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.menu-content {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+div.menu-li {
+  width: 300px;
+  position: absolute;
+  left: -300px;
+  display: none;
+  height: 100%;
+    transition: all .5s;
+-webkit-transition: all .5s, -webkit-transform .5s;
+}
+
+#menu-btn {
+  position: fixed;
+  z-index: 99999;
+}
+
+.menu-open .menu-li {
+  left: 0;
+  position:fixed;
+  display: block;
+    transition: all .5s;
+-webkit-transition: all .5s, -webkit-transform .5s;
+}
+
+.menu-open .menu-content {
+  left: 300px;
+  transition: all .5s;
+-webkit-transition: all .5s, -webkit-transform .5s;
+
+}
+
+.menu-open .menu-content::after {
+  content: '';
+  background: rgba(0,0,0,0.2);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.menu-open {
+  background: rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+
+.menu-container {
+
+}
 
 /* media queries */
 
@@ -669,7 +740,4 @@ section.students{
 		line-height: 100%;
 	}
 }
-
-
-
 
