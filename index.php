@@ -11,14 +11,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>GMU | Art and Design Senior Show 2013</title>
-	<!-- facebook meta tags -->
-	<meta property="og:site_name" content="GMU Fall 2013 Art & Design Senior Show"/>
-	<meta property="og:title" content="GMU Fall 2013 Art & Design Show"/>
-	<meta property="og:description" content="George Mason University School of Art presents the Fall 2013 Art & Design Senior Show. Showing December 9 - 13 with the closing party on Friday, 6pm - 10pm."/>
-	<meta property="og:image" content="img/facebook.jpg">
-	<meta property="og:url" content="http://fall2013.masonseniorshow.com/">
-	<meta property="og:type" content="Website"/>
-<!-- stylesheets -->
  	<link rel="stylesheet" href="css/foundation.css">
  	 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
@@ -32,10 +24,8 @@
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="js/jq.js"></script>
+		  <script src="js/super.js"></script>
 
-	<!-- mapbox -->
-	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
-  	<link href='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
 
 </head>
 	<body>
@@ -56,8 +46,8 @@
 					</ul>
 				</nav>
 		 
-			 <div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
 <div class="st-content">
+<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
@@ -65,17 +55,18 @@
 				<div class="header-info">
 					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
-						<h1>ART + DESIGN</br> SENIOR SHOW</h1>
+						<h1>ART + DESIGN SENIOR SHOW</h1>
 						<h4>Showing December 9 - 13</br>
 					Closing Reception on Friday December 13, 6pm - 10pm
 					</br>Art &amp; Design Building</h4>
-					<div class="down-arrow floating"></div>
 					</div>
 				</div>
+				<div class="down-arrow"></div>
 
 			</header>
 			<section class="about"> 
 			<a id="details"></a>
+
 				<h2>Details</h2>
 					<ul class="small-block-grid-1 large-block-grid-3">
 						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
@@ -84,11 +75,11 @@
 					</ul>
 					<p>Join us! We’re thrilled to share the culminating work of our college careers with you. Explore the cultural roots of minimalism, wrestle with the hidden world of homelessness, and learn about the nuances of beer and wine. 
 					Enjoy complimentary refreshments, convenient parking, and the opportunity to meet the artists behind the projects.
-					If you can’t make the official reception, stop by beforehand. <span class="bold">Our show runs from Monday the 9th through Friday the 13th.</span>
-					Free parking will be available in lots A and K for the closing reception on December 13th.</p>
+					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
 
 			</section>
-			<section id="map" class="map">
+			<a id="map"></a>
+			<section class="map">
 			</section>
 			<section class="students">
 			<a id="students"></a>
@@ -141,12 +132,12 @@
 				<ul>
 				    <li>Vinh Le</li>
 				    <li>Chris Amador</li>
-				    <li>George Bartz</li>
 				    <li>Katie Strylowski</li>
+				    <li>Will Ward</li>
+				    <li>George Bartz</li>
 				    <li>Henry Harding</li>
 				    <li>Klare Frank</li>
 				    <li>Joseph Abrahams</li>
-				    <li>Will Ward</li>
 				</ul>
 				<a href="http://www.gmu.edu/"><img src="img/gmu.png" alt=""></a>
 			</footer>
@@ -159,6 +150,8 @@
 </div><!-- /st-container -->
 	</body>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	
+
   	<script>
 		$(document).ready(function() {
 		    var bHeight = $(window).height();
@@ -171,25 +164,15 @@
 			$('#homeBanner').css('height', bHeight);
 		});		
 	</script>
-	<script>
-	$('#st-trigger-effects').click( function() {
-		$( this ).animate({
-			left: "300px",
-			position: "fixed"
-		}, 300)
-	});
-	</script>
   <script src="js/sidebar/classie.js"></script>
 		<script src="js/sidebar/sidebarEffects.js"></script>
   
   <script src="js/foundation.min.js"></script>
-  <script src="js/super.js"></script>
 
   <script>
     jQuery(document).foundation();
   </script>
 	
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/grid.js"></script>
 <script>
 	$(function() {
@@ -197,16 +180,6 @@
 	});
 </script>
 
-<!-- mapbox -->
-<script type='text/javascript'>
-    var map = L.mapbox.map('map', 'vinh291.g9514g88', {zoomControl: false});
-
-    // disable drag and zoom handlers
-    // map.dragging.disable();
-    // map.touchZoom.disable();
-    // map.doubleClickZoom.disable();
-    map.scrollWheelZoom.disable();
-</script>
 
 
 

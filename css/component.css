@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: ghostwhite;
+	border-bottom-color: #ddd;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: ghostwhite;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -92,7 +92,6 @@
 	float: left;
 	height: 100%;
 	overflow: hidden;
-	position: relative;
 }
 
 .og-details {
@@ -117,7 +116,6 @@
 }
 
 div.og-details{
-	min-height: 500px;
 	overflow: scroll;
 }
 

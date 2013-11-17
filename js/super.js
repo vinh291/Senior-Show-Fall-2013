@@ -27,7 +27,7 @@ function isMobile(){
 
     //Scroll and fade out the banner text
     jQuery('#bannerText').css({
-      'opacity' : 1-(scrollPos/300)
+      'opacity' : 1 -(scrollPos/300)
     });
 
     //Scroll the background of the banner
@@ -36,9 +36,9 @@ function isMobile(){
     //});
 
     //Scroll the background of the banner
-    jQuery('section.students').css({
-      'background-position' : 'center ' + (-scrollPos/8)+"px",
-    });      
+    jQuery('.students').css({
+      'background-position' : 'center ' + (scrollPos/8)+"px",
+    });
   }
 
 
@@ -46,13 +46,11 @@ function isMobile(){
 // Initialize
 /////////////////////////////// 
   
-jQuery.noConflict();
 jQuery(document).ready(function(){
   
-  if(!isMobile()) {
-    jQuery(window).scroll(function() {        
-         scrollBanner(); 
+    jQuery(window).scroll(function() {
+         scrollBanner();
 
     });
-  }
+  
 });
