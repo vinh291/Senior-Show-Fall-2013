@@ -38,7 +38,7 @@
 			    <nav class="st-menu st-effect-8" id="menu-8">
 					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
 					<ul id="menu-list">
-						<li><a id="nav1" href="#">About</a></li>
+						<li><a id="nav1" href="#homeBanner">About</a></li>
 						<li><a id="nav2" href="#details">Details</a></li>
 						<li><a id="nav-item3" href="#map">Map</a></li>
 						<li><a id="nav-item4" href="#students">Students</a></li>
@@ -105,7 +105,7 @@
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
 						    echo "	<p style='color:white;'> $name </p>";
-						    echo "		<a href='#' data-largesrc='img/photo.jpg' data-title='$name' data-description='$artiststatement'>";
+						    echo "		<a class='face-box' href='#' data-largesrc='img/photo.jpg' data-title='$name' data-description='$artiststatement'>";
 						    echo "		<img src='img/photo2.jpg' alt='img02'/> </a>";
 						    echo '	</li>';
 						}
@@ -113,8 +113,8 @@
 					</ul>
 			</section>
 			<section class="quote">
-				<span class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</span>
-				<h6>Blaise Pascal</h6>
+				<p class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</p>
+				<span class="pascal">Blaise Pascal</span>
 			</section>
 
 			<section id="contact">
@@ -126,6 +126,7 @@
 				4400 University Drive Fairfax, VA 22030 </br>
 				</p>
 			</section>
+
 			<footer>
 				<span class="credit">This site has been made possible by these amazing people:</span>
 				<p></p>
@@ -140,6 +141,7 @@
 				    <li>Joseph Abrahams</li>
 				</ul>
 				<a href="http://www.gmu.edu/"><img src="img/gmu.png" alt=""></a>
+				
 			</footer>
 		<!--wrapper close-->
 		</section>
@@ -180,7 +182,18 @@
 	});
 </script>
 
-
+<<<<<<< HEAD
+=======
+<!-- mapbox -->
+<script type='text/javascript'>
+	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
+    // disable drag and zoom handlers
+    // map.dragging.disable();
+    // map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+</script>
+>>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0
 
 
 </html>
