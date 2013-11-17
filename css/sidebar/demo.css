@@ -146,21 +146,28 @@ button {
 	padding: 0.6em 1.2em;
 	background: teal;
 	color: #fff;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	/*font-family: 'Lato', Calibri, Arial, sans-serif;*/
+	font-family: "proxima-nova";
+	font-weight: 300;
 	font-size: 1em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	cursor: pointer;
 	display: inline-block;
-	margin: 3px 2px;
+	margin: 25px 0px;
 }
 
-/*.box-shadow-menu {
+button:hover {
+	background: #0e6d6b;
+	/*padding: 0.6em 3em;*/
+}
+
+.box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
 }
 .box-shadow-menu:before {
-  content: "Menu";
+  content: "";
   position: absolute;
   left: 0;
   top: 0.25em;
@@ -171,15 +178,11 @@ button {
     0 0.25em 0 0 white,
     0 0.5em 0 0 white;
 }
-*/
+
 
 #st-trigger-effects{
 	position: absolute;
 	z-index: 999999;
-}
-
-button:hover {
-	background: teal;
 }
 
 .info {

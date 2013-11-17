@@ -7,10 +7,15 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 20px 70px 50px 10px;
+	margin: 20px 35px 50px;
 	vertical-align: top;
 	height: 300px;
 }
+/*.og-grid li:nth-child(3n) {
+	margin: 20px 10px 50px 10px;
+}
+*/
+
 
 .og-grid li > a,
 .og-grid li > a img {
@@ -22,7 +27,8 @@
 }
 
 .og-grid li.og-expanded > a::after {
-	top: auto;
+	/*top: auto;*/
+	bottom: 0;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -32,7 +38,7 @@
 	border-bottom-color: #ddd;
 	border-width: 15px;
 	left: 50%;
-	margin: -20px 0 0 -15px;
+	margin: -20px 0 -10px -15px;
 }
 
 .og-expander {
