@@ -26,6 +26,9 @@
 	<script src="js/jq.js"></script>
 		  <script src="js/super.js"></script>
 
+	<!-- mapbox -->
+	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
+  	<link href='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
 
 </head>
 	<body>
@@ -38,21 +41,21 @@
 			    <nav class="st-menu st-effect-8" id="menu-8">
 					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
 					<ul id="menu-list">
-						<li><a id="nav1" href="#homeBanner">About</a></li>
-						<li><a id="nav2" href="#details">Details</a></li>
-						<li><a id="nav-item3" href="#map">Map</a></li>
-						<li><a id="nav-item4" href="#students">Students</a></li>
-						<li><a id="nav-item5" href="#contact">Questions?</a></li>
+						<li><a class="scroll" href="#about">About</a></li>
+						<li><a class="scroll" href="#details">Details</a></li>
+						<li><a class="scroll" href="#parking">Map</a></li>
+						<li><a class="scroll" href="#students">Students</a></li>
+						<li><a class="scroll" href="#contact">Questions?</a></li>
 					</ul>
 				</nav>
 		 
 <div class="st-content">
-<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu</button></div>
+<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu &rarr;</button></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
-			<header id="homeBanner">
-				<div class="header-info">
+			<header id="about" name="about">
+				<div class="header-info" id="top">
 					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
 						<h1>ART + DESIGN SENIOR SHOW</h1>
@@ -64,10 +67,10 @@
 				<div class="down-arrow"></div>
 
 			</header>
-			<section class="about"> 
-			<a id="details"></a>
-
+			<section class="about" id="details" name="details"> 
+<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<h2>Details</h2>
+				
 					<ul class="small-block-grid-1 large-block-grid-3">
 						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
 						<li><div class="about-circle-projects"></div><span class="circle-subtitle">Forty Projects</span></li>
@@ -78,11 +81,14 @@
 					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
 
 			</section>
-			<a id="map"></a>
-			<section class="map">
+			<section id="parking" name="parking">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				<div id="map" class="map">
+					
+				</div>
 			</section>
-			<section class="students">
-			<a id="students"></a>
+			<section class="students" id="students" name="students">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<h2>Students</h2>
 					
 					<ul id="og-grid" class="og-grid">
@@ -112,13 +118,14 @@
 					?> 
 					</ul>
 			</section>
-			<section class="quote">
+			<section class="quote" id="quote" name="quote">
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<p class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</p>
 				<span class="pascal">Blaise Pascal</span>
 			</section>
 
 			<section id="contact">
-			<a id="contact"></a>
+				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
 				<p class="contact-info">
 				info@masonseniorshow.com</br>
 				(703) 993-8898</br>
@@ -157,18 +164,27 @@
   	<script>
 		$(document).ready(function() {
 		    var bHeight = $(window).height();
-			$('#homeBanner').css('height', bHeight);
+			$('#about').css('height', bHeight);
 		});
 
 		// for the window resize
 		$(window).resize(function() {
 			var bHeight = $(window).height();
-			$('#homeBanner').css('height', bHeight);
-		});		
+			$('#about').css('height', bHeight);
+		});
+
+
 	</script>
 	<script src="js/sidebar/classie.js"></script>
 	<script src="js/sidebar/sidebarEffects.js"></script>
   
+  <script src="js/sidebar/classie.js"></script>
+		<script src="js/sidebar/sidebarEffects.js"></script>
+<!--  <script>
+  	$('#menu-list li a').click(function(){
+  		$('.st-container').removeClass('st-menu-open');
+  	});
+  </script> -->
   <script src="js/foundation.min.js"></script>
 
   <script>
@@ -180,20 +196,35 @@
 	$(function() { Grid.init(); });
 </script>
 
+<<<<<<< HEAD
 
 <!-- mapbox -->
-<script type='text/javascript'>
-<<<<<<< HEAD
 =======
+>>>>>>> d466fd232c71b505469ea6cf01dd3224437c814a
+<script>
+jQuery(document).ready(function($) {
+ 
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
+	});
+});
+
+</script>
+<script type='text/javascript'>
+
 	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
     // disable drag and zoom handlers
     // map.dragging.disable();
     // map.touchZoom.disable();
     map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
-    >>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0
 
 </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d466fd232c71b505469ea6cf01dd3224437c814a
 
 
 </html>
