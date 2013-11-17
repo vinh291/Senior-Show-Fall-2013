@@ -52,7 +52,8 @@ header {
 
 .header-info h1{
 
-   text-shadow: rgb(32, 50, 61) 1px 1px,
+   text-shadow: 
+    rgb(32, 50, 61) 1px 1px,
     rgb(32, 50, 61) 2px 2px,
     rgb(32, 50, 61) 3px 3px,
     rgb(32, 50, 61) 4px 4px,
@@ -103,7 +104,7 @@ header {
 	border-right: 20px solid transparent;
 	border-top: 20px solid white;
 	position: absolute;
-	bottom: -35px;
+	bottom: 35px;
 	right: 50%;
 	margin-right: -10px; 
 }	
@@ -509,10 +510,10 @@ section.students{
 }
 
 @media (max-width: 808px) {
-	.students ul li a {
+	.students ul li a.face-box {
 		height: 200px;
 		width: 200px;
-		margin: 50px auto 0 auto ;
+		margin: 25px auto 0 auto ;
 		border-radius: 100%;
 }
 	}	

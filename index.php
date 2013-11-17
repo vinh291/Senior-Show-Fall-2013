@@ -104,9 +104,9 @@
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
-						    echo "	<p style='color:white;'> $name </p>";
-						    echo "		<a class='face-box' href='#' data-largesrc='img/photo.jpg' data-title='$name' data-description='$artiststatement'>";
-						    echo "		<img src='img/photo2.jpg' alt='img02'/> </a>";
+						    echo "	<p style='color:white;margin-bottom:0px;'> $name </p>";
+						    echo "		<a class='face-box' href='$website' data-largesrc='$picture' data-title='$name' data-description='$artiststatement'>";
+						    echo "		<img src='$picture' alt='Student Portrait'/> </a>";
 						    echo '	</li>';
 						}
 					?> 
@@ -166,8 +166,8 @@
 			$('#homeBanner').css('height', bHeight);
 		});		
 	</script>
-  <script src="js/sidebar/classie.js"></script>
-		<script src="js/sidebar/sidebarEffects.js"></script>
+	<script src="js/sidebar/classie.js"></script>
+	<script src="js/sidebar/sidebarEffects.js"></script>
   
   <script src="js/foundation.min.js"></script>
 
@@ -177,23 +177,23 @@
 	
 <script src="js/grid.js"></script>
 <script>
-	$(function() {
-		Grid.init();
-	});
+	$(function() { Grid.init(); });
 </script>
 
-<<<<<<< HEAD
-=======
+
 <!-- mapbox -->
 <script type='text/javascript'>
+<<<<<<< HEAD
+=======
 	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
     // disable drag and zoom handlers
     // map.dragging.disable();
     // map.touchZoom.disable();
     map.doubleClickZoom.disable();
     map.scrollWheelZoom.disable();
+    >>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0
+
 </script>
->>>>>>> 72ff1c9c5120b7997f597086a92adb4bb032ffc0
 
 
 </html>
