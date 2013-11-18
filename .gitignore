@@ -3,3 +3,7 @@ test
 studentinfo.csv
 
 .gitignore
+
+img/.DS_Store
+
+img/.DS_Store

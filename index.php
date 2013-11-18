@@ -9,7 +9,6 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<title>GMU | Art and Design Senior Show 2013</title>
  	<link rel="stylesheet" href="css/foundation.css">
  	 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
@@ -20,11 +19,8 @@
 	<link rel="stylesheet" href="css/component.css" /> 
 		<script src="js/modernizr.custom.js"></script>
 
- 	<!-- <script src="js/vendor/custom.modernizr.js"></script> -->
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="js/jq.js"></script>
-		  <script src="js/super.js"></script>
 
 	<!-- mapbox -->
 	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
@@ -51,6 +47,7 @@
 		 
 <div class="st-content">
 <div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu &rarr;</button></div>
+<div class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
@@ -64,11 +61,11 @@
 					</br>Art &amp; Design Building</h4>
 					</div>
 				</div>
-				<div class="down-arrow"></div>
+				<a href="#details" class="down-arrow scroll"></a>
 
 			</header>
 			<section class="about" id="details" name="details"> 
-<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+
 				<h2>Details</h2>
 				
 					<ul class="small-block-grid-1 large-block-grid-3">
@@ -82,13 +79,15 @@
 
 			</section>
 			<section id="parking" name="parking">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
+				<h2>Details</h2>
+				
 				<div id="map" class="map">
 					
 				</div>
 			</section>
 			<section class="students" id="students" name="students">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<h2>Students</h2>
 					
 					<ul id="og-grid" class="og-grid">
@@ -119,13 +118,13 @@
 					</ul>
 			</section>
 			<section class="quote" id="quote" name="quote">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<p class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</p>
 				<span class="pascal">Blaise Pascal</span>
 			</section>
 
 			<section id="contact">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<p class="contact-info">
 				info@masonseniorshow.com</br>
 				(703) 993-8898</br>
@@ -162,9 +161,13 @@
   	
 
   	<script>
-		$(document).ready(function() {
+
+  	// Resizes the background size of the Header section
+  	//||||||||||||||||||||||||||||||||||||||||||||||||||
+		$(document).ready(function() {   
 		    var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
+
 		});
 
 		// for the window resize
@@ -172,11 +175,21 @@
 			var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
 		});
+	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
+  	// Animates the scrolling of the page when an A tag with the class of 'scroll' is clicked
+  	//||||||||||||||||||||||||||||||||||||||||||||||||||
+	jQuery(document).ready(function($) {
+	 
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+	});
+	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
 	</script>
-	<script src="js/sidebar/classie.js"></script>
-	<script src="js/sidebar/sidebarEffects.js"></script>
+
   
   <script src="js/sidebar/classie.js"></script>
 		<script src="js/sidebar/sidebarEffects.js"></script>
@@ -185,11 +198,7 @@
   		$('.st-container').removeClass('st-menu-open');
   	});
   </script> -->
-  <script src="js/foundation.min.js"></script>
 
-  <script>
-    jQuery(document).foundation();
-  </script>
 	
 <script src="js/grid.js"></script>
 <script>
@@ -199,16 +208,6 @@
 
 <!-- mapbox -->
 
-<script>
-jQuery(document).ready(function($) {
- 
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-});
-
-</script>
 <script type='text/javascript'>
 
 	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});

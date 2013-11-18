@@ -41,6 +41,16 @@ header {
 	position: fixed;
 }
 
+.back-top {
+  position: absolute;
+  position: fixed;
+  top: 0em;
+  right: 0em;
+  padding: .5em;
+  background: rgba(255,255,255,0.2);
+  z-index: 99999;
+}
+
 .header-info {
 	/*padding-top: 90px;*/
 	width: 80%; 
@@ -331,6 +341,10 @@ footer img {
 	margin-top: 45px;
 }
 
+footer ul{
+	list-style: none;
+}
+
 .credit {
 	font-size: 12pt;
 	font-family: "proxima-nova";
@@ -426,6 +440,10 @@ p {
 section.details,
 section.students{
 	background: url(../img/starbackground2.jpg) fixed;
+}
+
+section#parking{
+	background: #F6F7F6;
 }
 
 .face-holder {
