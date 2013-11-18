@@ -146,7 +146,6 @@ button {
 	padding: 0.6em 1.2em;
 	background: teal;
 	color: #fff;
-	/*font-family: 'Lato', Calibri, Arial, sans-serif;*/
 	font-family: "proxima-nova";
 	font-weight: 300;
 	font-size: 1em;
@@ -158,6 +157,7 @@ button {
 	position: fixed;
 	left: 0;
 }
+
 
 button:hover {
 	background: #0e6d6b;
