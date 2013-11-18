@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/component.css" /> 
 		<script src="js/modernizr.custom.js"></script>
 
+<!-- typekit -->
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 

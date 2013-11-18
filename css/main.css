@@ -3,6 +3,46 @@
 	padding: 0;
 }
 
+
+h1 {
+	text-align: center;
+	font-size: 80pt;
+	font-family: "proxima-nova" ,  sans-serif;
+	font-weight: 800;
+	color: white;
+	line-height: 80pt;
+	letter-spacing: -1px;
+}
+
+h2 {
+	text-align: center;
+	font-family: "proxima-nova" ,  sans-serif;
+	font-size: 45pt;
+	padding-bottom: 30px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20pt;
+	font-family: "proxima-nova" ,  sans-serif;
+	font-weight: 100;
+	color: #48D1CC;
+}
+
+h4 {
+	margin-top: -15px;
+	text-align: center;
+	color: #48D1CC;
+	font-family: "proxima-nova" ,  sans-serif;
+	font-weight: 100;
+}
+
+p {
+	font-family: "open-sans" , sans-serif;
+	font-size: 12pt;
+	line-height: 30px;
+}
+
 body, html {
 	border: 0px; 
 	margin: 0px; 
@@ -319,7 +359,7 @@ header {
 }
 
 .pascal {
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight: 100;
 	color: #48D1CC;
 	font-size: 18pt;
@@ -347,49 +387,11 @@ footer ul{
 
 .credit {
 	font-size: 12pt;
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight: 100;
 	color: white;
 }
 
-h1 {
-	text-align: center;
-	font-size: 80pt;
-	font-family: "proxima-nova";
-	font-weight: 800;
-	color: white;
-	line-height: 80pt;
-	letter-spacing: -1px;
-}
-
-h2 {
-	text-align: center;
-	font-family: "proxima-nova";
-	font-size: 45pt;
-	padding-bottom: 30px;
-}
-
-h3 {
-	text-align: center;
-	font-size: 20pt;
-	font-family: "proxima-nova";
-	font-weight: 100;
-	color: #48D1CC;
-}
-
-h4 {
-	margin-top: -15px;
-	text-align: center;
-	color: #48D1CC;
-	font-family: "proxima-nova";
-	font-weight: 100;
-}
-
-p {
-	font-family: "open-sans" , sans-serif;
-	font-size: 12pt;
-	line-height: 30px;
-}
 
 .bold {
 	font-family: "open-sans" , sans-serif;
@@ -402,7 +404,7 @@ p {
 	display: block;
 	text-align: center;
 	margin-top: 10px;
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight:700;
 	font-size: 24px;
 	
@@ -412,7 +414,7 @@ p {
 	display: block;
 	text-align: center;
 	margin-top: 10px;
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight:700;
 	font-size: 24px;
 	color: #48D1CC;
@@ -422,7 +424,7 @@ p {
 .contact-info {
 	text-align: center;
 	font-size: 18pt;
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight: 100;
 	color: white;
 	line-height: 30pt;
@@ -492,7 +494,7 @@ p.back-top {
 	
 	h1 {
 		text-align: center;
-		font-family: "proxima-nova";
+		font-family: "proxima-nova" ,  sans-serif;
 		font-size: 70pt;
 		padding-bottom: 30px;
 		line-height: 100%;
@@ -503,7 +505,7 @@ p.back-top {
 	
 	h1 {
 		text-align: center;
-		font-family: "proxima-nova";
+		font-family: "proxima-nova" ,  sans-serif;
 		font-size: 60pt;
 		padding-bottom: 30px;
 		line-height: 100%;
@@ -512,7 +514,7 @@ p.back-top {
 	h3 {
 	text-align: center;
 	font-size: 20pt;
-	font-family: "proxima-nova";
+	font-family: "proxima-nova" ,  sans-serif;
 	font-weight: 100;
 	color: #48D1CC;	
 	}
@@ -558,7 +560,7 @@ p.back-top {
 	
 	h1 {
 		text-align: center;
-		font-family: "proxima-nova";
+		font-family: "proxima-nova" ,  sans-serif;
 		font-size: 50pt;
 		padding-bottom: 30px;
 		line-height: 100%;
@@ -683,7 +685,7 @@ p.back-top {
 	.contact-info {
 		text-align: center;
 		font-size: 15pt;
-		font-family: "proxima-nova";
+		font-family: "proxima-nova" ,  sans-serif;
 		font-weight: 100;
 		color: white;
 		line-height: 30pt;
@@ -696,7 +698,7 @@ p.back-top {
 	
 	h1 {
 		text-align: center;
-		font-family: "proxima-nova";
+		font-family: "proxima-nova" ,  sans-serif;
 		font-size: 40pt;
 		padding-bottom: 30px;
 		line-height: 100%;
