@@ -43,9 +43,12 @@ header {
 
 .back-top {
   position: absolute;
-  top: 1em;
-  right: 1em;
-  display: block;
+  position: fixed;
+  top: 0em;
+  right: 0em;
+  padding: .5em;
+  background: rgba(255,255,255,0.2);
+  z-index: 99999;
 }
 
 .header-info {
