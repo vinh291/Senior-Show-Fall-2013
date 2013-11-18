@@ -140,7 +140,7 @@
 				    <li>Vinh Le</li>
 				    <li>Chris Amador</li>
 				    <li>Katie Strylowski</li>
-				    <li>Will Ward</li>
+				    <li>Will Wiard</li>
 				    <li>George Bartz</li>
 				    <li>Henry Harding</li>
 				    <li>Klare Frank</li>
