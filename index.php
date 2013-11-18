@@ -1,4 +1,5 @@
 <?php require('php/studentinfo.php') ?>
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 
 <!DOCTYPE html>
 <!--[if IE 8]> 				 
@@ -15,6 +16,15 @@
 		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
 		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+ 	<!-- facebook meta tags -->
+	<meta property="og:site_name" content="GMU Fall 2013 Art & Design Senior Show"/>
+	<meta property="og:title" content="GMU Fall 2013 Art & Design Show"/>
+	<meta property="og:description" content="George Mason University School of Art presents the Fall 2013 Art & Design Senior Show. Showing December 9 - 13 with the closing party on Friday, 6pm - 10pm."/>
+	<meta property="og:image" content="img/facebook.jpg">
+	<meta property="og:url" content="http://fall2013.masonseniorshow.com/">
+	<meta property="og:type" content="Website"/>
 
  	<!-- Drop down style -->
 	<link rel="stylesheet" href="css/component.css" /> 
