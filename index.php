@@ -42,17 +42,17 @@
 
 			<div class="topnav">
 			<div class="large-12 columns">
-				<a id="menu-button"><img src='img/fi-list.svg' alt='Menu' width="25" height="25" /></a>
+				<a id="menu-button"><img src='img/fi-list.svg' alt='Menu' width="25px" height="25px" /></a>
 			</div>
 	</div>
 	<div id="menu">
-		<h2 class="icon">Mason Senior Show 2013</h2>
+		<!-- <h2 class="icon">MENU</h2> -->
 					<ul id="menu-list">
-						<li><a class="scroll" href="#about">About</a></li>
-						<li><a class="scroll" href="#details">Details</a></li>
-						<li><a class="scroll" href="#map">Map</a></li>
-						<li><a class="scroll" href="#students">Students</a></li>
-						<li><a class="scroll" href="#contact">Contact</a></li>
+						<li><a class="scroll" href="#about">ABOUT</a></li>
+						<li><a class="scroll" href="#details">DETAILS</a></li>
+						<li><a class="scroll" href="#map">MAP</a></li>
+						<li><a class="scroll" href="#students">STUDENTS</a></li>
+						<li><a class="scroll" href="#contact">CONTACT</a></li>
 					</ul>
 	</div>
 <div class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></div>
