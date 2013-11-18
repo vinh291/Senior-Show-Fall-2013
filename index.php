@@ -61,7 +61,7 @@
 					</br>Art &amp; Design Building</h4>
 					</div>
 				</div>
-				<a href="#details" class="down-arrow scroll"></a>
+				<a href="#details" class="down-arrow floating"></a>
 
 			</header>
 			<section class="about" id="details" name="details"> 
@@ -76,14 +76,8 @@
 					<p>Join us! We’re thrilled to share the culminating work of our college careers with you. Explore the cultural roots of minimalism, wrestle with the hidden world of homelessness, and learn about the nuances of beer and wine. 
 					Enjoy complimentary refreshments, convenient parking, and the opportunity to meet the artists behind the projects.
 					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
-
 			</section>
-			<section id="parking" name="parking">
-				
-				<h2>Details</h2>
-				
 				<div id="map" class="map">
-					
 				</div>
 			</section>
 			<section class="students" id="students" name="students">

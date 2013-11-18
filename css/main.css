@@ -44,7 +44,7 @@ header {
 .back-top {
   position: absolute;
   position: fixed;
-  top: 0em;
+  bottom: 0em;
   right: 0em;
   padding: .5em;
   background: rgba(255,255,255,0.2);
@@ -113,12 +113,10 @@ header {
 	border-right: 20px solid transparent;
 	border-top: 20px solid white;
 	position: absolute;
-	bottom: 35px;
+	bottom: 80px;
 	right: 50%;
 	margin-right: -10px; 
 }	
-
-
 
 
 /* floating animation */
@@ -190,6 +188,8 @@ header {
         -moz-transform: scale(0.9);
     }
 }
+
+
 
 
 .about {
