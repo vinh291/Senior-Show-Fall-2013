@@ -41,6 +41,13 @@ header {
 	position: fixed;
 }
 
+.back-top {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: block;
+}
+
 .header-info {
 	/*padding-top: 90px;*/
 	width: 80%; 

@@ -48,6 +48,7 @@
 		 
 <div class="st-content">
 <div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu &rarr;</button></div>
+<div class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></div>
     <div class="st-content-inner">
         <!-- the content -->
 		<section id="wrapper">
@@ -65,7 +66,7 @@
 
 			</header>
 			<section class="about" id="details" name="details"> 
-<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+
 				<h2>Details</h2>
 				
 					<ul class="small-block-grid-1 large-block-grid-3">
@@ -79,7 +80,7 @@
 
 			</section>
 			<section id="parking" name="parking">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<h2>Details</h2>
 				
 				<div id="map" class="map">
@@ -87,7 +88,7 @@
 				</div>
 			</section>
 			<section class="students" id="students" name="students">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<h2>Students</h2>
 					
 					<ul id="og-grid" class="og-grid">
@@ -118,13 +119,13 @@
 					</ul>
 			</section>
 			<section class="quote" id="quote" name="quote">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<p class="quote-text">"Through space the universe encompasses and swallows me up like an atom; through thought I comprehend the world."</p>
 				<span class="pascal">Blaise Pascal</span>
 			</section>
 
 			<section id="contact">
-				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				
 				<p class="contact-info">
 				info@masonseniorshow.com</br>
 				(703) 993-8898</br>
