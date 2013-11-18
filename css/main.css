@@ -330,6 +330,10 @@ footer img {
 	margin-top: 45px;
 }
 
+footer ul{
+	list-style: none;
+}
+
 .credit {
 	font-size: 12pt;
 	font-family: "proxima-nova";
@@ -425,6 +429,10 @@ p {
 section.details,
 section.students{
 	background: url(../img/starbackground2.jpg) fixed;
+}
+
+section#parking{
+	background: #F6F7F6;
 }
 
 .face-holder {

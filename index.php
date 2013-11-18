@@ -20,11 +20,8 @@
 	<link rel="stylesheet" href="css/component.css" /> 
 		<script src="js/modernizr.custom.js"></script>
 
- 	<!-- <script src="js/vendor/custom.modernizr.js"></script> -->
  	<script type="text/javascript" src="//use.typekit.net/vvp1wxb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="js/jq.js"></script>
-		  <script src="js/super.js"></script>
 
 	<!-- mapbox -->
 	<script src='//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
@@ -64,7 +61,7 @@
 					</br>Art &amp; Design Building</h4>
 					</div>
 				</div>
-				<div class="down-arrow"></div>
+				<a href="#details" class="down-arrow scroll"></a>
 
 			</header>
 			<section class="about" id="details" name="details"> 
@@ -83,6 +80,8 @@
 			</section>
 			<section id="parking" name="parking">
 				<p class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></p>
+				<h2>Details</h2>
+				
 				<div id="map" class="map">
 					
 				</div>
@@ -162,9 +161,13 @@
   	
 
   	<script>
-		$(document).ready(function() {
+
+  	// Resizes the background size of the Header section
+  	//||||||||||||||||||||||||||||||||||||||||||||||||||
+		$(document).ready(function() {   
 		    var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
+
 		});
 
 		// for the window resize
@@ -172,11 +175,21 @@
 			var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
 		});
+	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
+  	// Animates the scrolling of the page when an A tag with the class of 'scroll' is clicked
+  	//||||||||||||||||||||||||||||||||||||||||||||||||||
+	jQuery(document).ready(function($) {
+	 
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+	});
+	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
 	</script>
-	<script src="js/sidebar/classie.js"></script>
-	<script src="js/sidebar/sidebarEffects.js"></script>
+
   
   <script src="js/sidebar/classie.js"></script>
 		<script src="js/sidebar/sidebarEffects.js"></script>
@@ -185,11 +198,7 @@
   		$('.st-container').removeClass('st-menu-open');
   	});
   </script> -->
-  <script src="js/foundation.min.js"></script>
 
-  <script>
-    jQuery(document).foundation();
-  </script>
 	
 <script src="js/grid.js"></script>
 <script>
@@ -199,16 +208,6 @@
 
 <!-- mapbox -->
 
-<script>
-jQuery(document).ready(function($) {
- 
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-});
-
-</script>
 <script type='text/javascript'>
 
 	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
