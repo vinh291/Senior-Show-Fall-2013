@@ -488,6 +488,79 @@ p.back-top {
 
 }
 
+/* ---------------------------- */
+/*           MENU               */
+/* ---------------------------- */
+  
+  .topnav {
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    z-index: 9999;
+    position: fixed;
+    background: rgba(255,255,255,0.0);
+    top:-45px;
+  }
+  
+  .topnav:hover {
+    background: rgba(255,255,255,0.3);
+    transition: background 0.5s;
+  }
+
+  #menu {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    z-index: 999;
+    display: none;
+  }
+
+  #menu-button {
+    font-weight: 700;
+    color: #333;
+    margin-top:.5em;
+  }
+
+  #menu ul li {
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+    padding: 0;
+  }
+  
+  #menu ul li a {
+    font-weight: 700;
+    color: #333;
+    width: 100%;
+    display: block;
+    padding: .5em;
+  }
+
+  #menu ul li a:hover {
+    background: rgba(255,255,255,1.0);
+  }
+
+@media (max-width: 768px) {
+    #menu ul li {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    padding: 0;
+  }
+  
+  #menu ul li a {
+    font-weight: 700;
+    color: #333;
+    width: 100%;
+    display: block;
+    padding: .5em;
+  }
+}
+
+
+  /* END MENU */
+
 /* media queries */
 
 @media (max-width: 1047px) {

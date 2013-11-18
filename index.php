@@ -12,9 +12,6 @@
 	<meta charset="utf-8">
 	<title>GMU | Art and Design Senior Show 2013</title>
  	<link rel="stylesheet" href="css/foundation.css">
- 	 	<link rel="stylesheet" type="text/css" href="css/sidebar/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
-		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -43,11 +40,13 @@
 	<!-- google analytics -->
 	<?php include_once("php/analyticstracking.php") ?>
 
-				<div id="st-container" class="st-container">
-		    <!-- content push wrapper -->
-		    <div class="st-pusher">
-			    <nav class="st-menu st-effect-8" id="menu-8">
-					<h2 class="icon">Mason Senior<br/>Show 2013</h2>
+			<div class="topnav">
+			<div class="large-12 columns">
+				<a id="menu-button"><img src='img/fi-list.svg' alt='Menu' width="25" height="25" /></a>
+			</div>
+	</div>
+	<div id="menu">
+		<h2 class="icon">Mason Senior Show 2013</h2>
 					<ul id="menu-list">
 						<li><a class="scroll" href="#about">About</a></li>
 						<li><a class="scroll" href="#details">Details</a></li>
@@ -55,16 +54,14 @@
 						<li><a class="scroll" href="#students">Students</a></li>
 						<li><a class="scroll" href="#contact">Contact</a></li>
 					</ul>
-				</nav>
-		 
-<div class="st-content">
-<div id="st-trigger-effects" class="nav-menu-btn"><button data-effect="st-effect-8">Menu &rarr;</button></div>
+	</div>
 <div class="back-top"><a href="#top" class="scroll">Back to top &uarr;</a></div>
-    <div class="st-content-inner">
+  
         <!-- the content -->
-		<section id="wrapper">
+
 			<header id="about" name="about">
 				<div class="header-info" id="top">
+					<div id="bannerText">">
 					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
 						<h1>ART + DESIGN SENIOR SHOW</h1>
@@ -155,25 +152,16 @@
 				<a href="http://www.gmu.edu/"><img src="img/gmu.png" alt=""></a>
 				
 			</footer>
-		<!--wrapper close-->
-		</section>
-		<!--wrapper close-->
-				           </div><!-- /st-content-inner -->
-        </div><!-- /st-content -->
-    </div><!-- /st-pusher -->
-</div><!-- /st-container -->
 	</body>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   	
 
   	<script>
 
-  	// Resizes the background size of the Header section
-  	//||||||||||||||||||||||||||||||||||||||||||||||||||
 		$(document).ready(function() {   
 		    var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
-
+			$('.topnav').delay(400).animate({top:'0px'},400);
 		});
 
 		// for the window resize
@@ -181,29 +169,45 @@
 			var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
 		});
-	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
-  	// Animates the scrolling of the page when an A tag with the class of 'scroll' is clicked
-  	//||||||||||||||||||||||||||||||||||||||||||||||||||
-	// jQuery(document).ready(function($) {
-	 
-	// 	$(".scroll").click(function(event){		
-	// 		event.preventDefault();
-	// 		$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
-	// 	});
-	// });
-	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
 	</script>
 
+	    <script type="text/javascript">
+    	var j = 0;
+			$('.topnav, .close, #menu a').click(function() {
+			  $('#menu').slideToggle(500, function() {
+			  });
+			  $('body').toggleClass('open');
+		   
+			    if (j==0) {
+			        $('#menu-button').html("X")
+			        j=1
+			    } else {
+			        $('#menu-button').html("<img src='img/fi-list.svg' alt='Menu' width='25' height='25' />")
+			        j=0
+			    }
+		    
+			});
+
+    </script>
   
-  <script src="js/sidebar/classie.js"></script>
-		<script src="js/sidebar/sidebarEffects.js"></script>
-<!--  <script>
-  	$('#menu-list li a').click(function(){
-  		$('.st-container').removeClass('st-menu-open');
-  	});
-  </script> -->
+  <script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+</script>
 
 	
 <script src="js/grid.js"></script>
