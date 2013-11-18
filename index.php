@@ -15,6 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
 		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
  	<link rel="stylesheet" href="css/main.css">
+
  	<!-- Drop down style -->
 	<link rel="stylesheet" href="css/component.css" /> 
 		<script src="js/modernizr.custom.js"></script>
@@ -39,9 +40,9 @@
 					<ul id="menu-list">
 						<li><a class="scroll" href="#about">About</a></li>
 						<li><a class="scroll" href="#details">Details</a></li>
-						<li><a class="scroll" href="#parking">Map</a></li>
+						<li><a class="scroll" href="#map">Map</a></li>
 						<li><a class="scroll" href="#students">Students</a></li>
-						<li><a class="scroll" href="#contact">Questions?</a></li>
+						<li><a class="scroll" href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 		 
@@ -173,13 +174,13 @@
 
   	// Animates the scrolling of the page when an A tag with the class of 'scroll' is clicked
   	//||||||||||||||||||||||||||||||||||||||||||||||||||
-	jQuery(document).ready(function($) {
+	// jQuery(document).ready(function($) {
 	 
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
-		});
-	});
+	// 	$(".scroll").click(function(event){		
+	// 		event.preventDefault();
+	// 		$('.st-content').animate({scrollTop:$(this.hash).offset().top}, 500);
+	// 	});
+	// });
 	//|||||||||||||||||||||||||||||||||||||||||||||||||
 
 	</script>
