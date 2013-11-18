@@ -77,7 +77,7 @@
 					</ul>
 					<p>Join us! We’re thrilled to share the culminating work of our college careers with you. Explore the cultural roots of minimalism, wrestle with the hidden world of homelessness, and learn about the nuances of beer and wine. 
 					Enjoy complimentary refreshments, convenient parking, and the opportunity to meet the artists behind the projects.
-					Free parking will be available in lots A and K for the closing reception on December 13th. If you can’t make the official reception, stop by beforehand. Our show runs from Monday the 9th through Friday the 13th. </p>
+					Free parking will be available in lots A and K for the closing reception on December 13th. Our show runs from Monday the 9th through Friday the 13th. </p>
 			</section>
 				<div id="map" class="map">
 				</div>
@@ -105,7 +105,7 @@
 						  	## EDIT HERE
 						  	## This is the <li> that is loop over and over 
 						    echo '	<li>';
-						    echo "	<p style='color:white;margin-bottom:0px;'> $name </p>";
+						    echo "	<p style='color:white;margin-bottom:5px;'> $name </p>";
 						    echo "		<a class='face-box' href='$website' data-largesrc='$picture' data-title='$name' data-description='$artiststatement'>";
 						    echo "		<img src='$picture' alt='Student Portrait'/> </a>";
 						    echo '	</li>';
