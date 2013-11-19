@@ -88,8 +88,12 @@ header {
   bottom: 0em;
   right: 0em;
   padding: .5em;
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.4);
   z-index: 99999;
+}
+
+.back-top a {
+  color: #000;
 }
 
 .header-info {
