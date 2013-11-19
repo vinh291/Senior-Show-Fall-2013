@@ -502,12 +502,12 @@ p.back-top {
 
   .topnav {
     width: 100%;
-    height: 45px;
-    padding-top: 10px;
+    height: 75px;
+    padding-top: 0px;
     z-index: 9999;
     position: fixed;
     background: rgba(255,255,255,0.0);
-    top:-45px;
+    top:-70px;
   }
   
 /*  .topnav:hover {
@@ -522,25 +522,33 @@ p.back-top {
     background: rgba(0,46,46,0.9);
     z-index: 999;
     display: none;
+    padding-top: 80px;
   }
 
   #menu-button {
     font-weight: 100;
     color: #fff;
-    font-size: 20pt;
-    margin-top:.5em;
+    font-size: 30px;
+    line-height: 60px;
     background-color: teal;
-    padding: 40px 10px 10px;
-    width: 40px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    height: 70px;
   }
 
-    #menu-button:hover {
+   #menu-button:hover, .topnav:hover #menu-button {
     font-weight: 100;
     color: #fff;
-    font-size: 20pt;
+    font-size: 30px;
+    line-height: 60px;
     background-color: #005757;
-    padding: 50px 10px 10px;
-    width: 40px;
+    height: 75px;
+    padding-top: 10px;
+  }
+
+  .topnav:hover {
+    background: rgba(0,0,0,0.1);
   }
 
   #menu ul li {
@@ -564,7 +572,7 @@ p.back-top {
     background: rgba(0,150,150,0.3);
   }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #menu ul li {
     text-align: center;
     font-size: 2em;
@@ -579,10 +587,64 @@ p.back-top {
     display: block;
     padding: .5em;
   }
+
+    .topnav {
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    background: rgba(255,255,255,0.0);
+    top:-80px;
+    height: 70px;
+  }
+
+    #menu {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,46,46,0.9);
+    z-index: 999;
+    display: none;
+    padding-top: 80px;
+  }
+
+  #menu-button {
+    font-weight: 100;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    background-color: teal;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    height: 60px;
+  }
+
+ #menu-button:hover, .topnav:hover #menu-button {
+    font-weight: 100;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    background-color: #005757;
+    height: 68px;
+    padding-top: 10px;
+  }
+
 }
 
 
   /* END MENU */
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+@media (min-width: 768px) {
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 /* media queries */
 

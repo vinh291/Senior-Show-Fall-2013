@@ -16,9 +16,9 @@
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
  	<!-- facebook meta tags -->
-	<meta property="og:site_name" content="GMU Fall 2013 Art & Design Senior Show"/>
-	<meta property="og:title" content="GMU Fall 2013 Art & Design Show"/>
-	<meta property="og:description" content="George Mason University School of Art presents the Fall 2013 Art & Design Senior Show. Showing December 9 - 13 with the closing party on Friday, 6pm - 10pm."/>
+	<meta property="og:site_name" content="GMU Fall 2013 Art &amp; Design Senior Show"/>
+	<meta property="og:title" content="GMU Fall 2013 Art &amp; Design Show"/>
+	<meta property="og:description" content="George Mason University School of Art presents the Fall 2013 Art &amp; Design Senior Show. Showing December 9 - 13 with the closing party on Friday, 6pm - 10pm."/>
 	<meta property="og:image" content="img/facebook.jpg">
 	<meta property="og:url" content="http://fall2013.masonseniorshow.com/">
 	<meta property="og:type" content="Website"/>
@@ -42,7 +42,7 @@
 
 			<div class="topnav">
 			<div class="large-12 columns">
-				<a id="menu-button"><img src='img/fi-list.svg' alt='Menu' width="25px" height="25px" /></a>
+				<div id="menu-button"><a name="menu-button"><img src='img/fi-list.svg' alt='Menu'  class='menu-icon' /></a></div>
 			</div>
 	</div>
 	<div id="menu">
@@ -61,7 +61,6 @@
 
 			<header id="about" name="about">
 				<div class="header-info" id="top">
-					<div id="bannerText">">
 					<div id="bannerText">
 						<h3>George Mason University Fall 2013</h3>
 						<h1>ART + DESIGN SENIOR SHOW</h1>
@@ -161,7 +160,7 @@
 		$(document).ready(function() {   
 		    var bHeight = $(window).height();
 			$('#about').css('height', bHeight);
-			$('.topnav').delay(400).animate({top:'0px'},400);
+			$('.topnav').delay(800).animate({top:'0px'},400);
 		});
 
 		// for the window resize
@@ -184,7 +183,7 @@
 			        $('#menu-button').html("X")
 			        j=1
 			    } else {
-			        $('#menu-button').html("<img src='img/fi-list.svg' alt='Menu' width='25' height='25' />")
+			        $('#menu-button').html("<img src='img/fi-list.svg' alt='Menu' class='menu-icon' />")
 			        j=0
 			    }
 		    
