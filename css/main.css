@@ -547,10 +547,6 @@ p.back-top {
     padding-top: 10px;
   }
 
-  .topnav:hover {
-    background: rgba(0,0,0,0.1);
-  }
-
   #menu ul li {
     text-align: center;
     font-size: 3em;
