@@ -74,7 +74,7 @@
 			</header>
 			<section class="about" id="details" name="details"> 
 
-				<h2>Details</h2>
+				<h2>Flight Plan</h2>
 				
 					<ul class="small-block-grid-1 large-block-grid-3">
 						<li><div class="about-circle-food"></div><span class="circle-subtitle">Free Food</span></li>
@@ -219,7 +219,7 @@
 
 <script type='text/javascript'>
 
-	var map = L.mapbox.map('map', 'vinh291.ga199lnk', {zoomControl: false});
+	var map = L.mapbox.map('map', 'vinh291.gbh8oml4', {zoomControl: false});
     // disable drag and zoom handlers
     // map.dragging.disable();
     // map.touchZoom.disable();
