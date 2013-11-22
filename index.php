@@ -114,6 +114,7 @@
 						    echo "	<p style='color:white;margin-bottom:5px;'> $name </p>";
 						    echo "		<a class='face-box' href='$website' data-largesrc='$picture' data-title='$name' data-description='$artiststatement'>";
 						    echo "		<img src='$picture' alt='Student Portrait'/> </a>";
+						    echo "      <div class='icon'><img src='img/icons/$major.png' alt='$major' />";
 						    echo '	</li>';
 						}
 					?> 
